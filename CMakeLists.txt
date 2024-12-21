@@ -1,17 +1,6 @@
 cmake_minimum_required(VERSION 3.27.0)
-project(GCCsandbox VERSION 0.1.0 LANGUAGES C CXX)
+project(tsv VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++ -static")
 
-# add_compile_options(-Wall)
-
-set(LIBMEM_LIBRARY "C:/repos/libmem/lib/libmem.lib")
-set(LIBMEM_INCLUDE_DIR "C:/repos/libmem/include")
-
-include_directories(GCCsandbox
-       ${LIBMEM_INCLUDE_DIR}
-)
-
-add_executable(GCCsandbox main.cpp)
-
-target_link_libraries(GCCsandbox ${LIBMEM_LIBRARY})
-
+add_executable(tsv main.cpp)

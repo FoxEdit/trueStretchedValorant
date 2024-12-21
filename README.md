@@ -13,7 +13,7 @@ It is necessary to make some initial settings for the program to work correctly.
 
 ## Usage ✨
 Just open the tsv.exe file and press any key.
-The program will set the resolution to 1440x1080 and stretch 
+The program will set the resolution to 1566x1080 and stretch 
 the game window. After that, just play the game. When you are done 
 playing, go back to the console window and press any key again, 
 this will reset your resolution back to the original one.

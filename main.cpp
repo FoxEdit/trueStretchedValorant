@@ -6,7 +6,7 @@ int main() {
 
     DEVMODE dm;
     dm.dmSize = sizeof(dm);
-    dm.dmPelsWidth = 1440;
+    dm.dmPelsWidth = 1566;
     dm.dmPelsHeight = 1080;
     dm.dmFields = DM_PELSWIDTH | DM_PELSHEIGHT;
     ChangeDisplaySettings(&dm, CDS_FULLSCREEN);
